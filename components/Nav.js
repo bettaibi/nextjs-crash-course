@@ -1,10 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
-import navStyle from '../styles/Nav.module.css';
+import navbarStyle from '../styles/Nav.module.css';
 
 const Nav = () => {
     return (
-        <nav className={navStyle.nav}>
+        <header className = {navbarStyle.nav}>
             <ul>
                 <li>
                     <Link href="/">Home</Link>
@@ -13,8 +13,9 @@ const Nav = () => {
                     <Link href="/about">About</Link>
                 </li>
             </ul>
-        </nav>
+        </header>
     )
 }
 
 export default Nav
+

@@ -1,14 +1,18 @@
 import React from 'react';
-import Head from 'next/head';
+import Meta from '../components/Meta';
 
 const About = () => {
     return (
         <div>
-            <Head>
-                <title>About page </title>
-            </Head>
+            <Meta 
+                title = "About Pages | Nidhal Bettaibi"
+                description = "Next js crash course"
+                keywords = "about, author"
+            />
 
-            this is an about page
+            <div className="green">
+                 this is an about page
+            </div>
         </div>
     )
 }

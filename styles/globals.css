@@ -14,3 +14,14 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.not-found{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.not-found a{
+  color: blueviolet;
+  cursor: pointer;
+  text-decoration: underline;
+}
